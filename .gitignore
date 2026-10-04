@@ -5,6 +5,8 @@ __pycache__/
 *.egg-info/
 build/
 dist/
+# PyInstaller 生成,内容由 build.bat 的参数决定,不入库
+*.spec
 
 # 虚拟环境
 .venv/
